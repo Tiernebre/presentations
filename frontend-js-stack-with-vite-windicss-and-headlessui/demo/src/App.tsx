@@ -13,9 +13,6 @@ function App() {
         <div className="visible md:hidden">
           Oh you're on a small viewport device. Awesome!!
         </div>
-        <div className="hidden md:visible">
-          Oh you're on a medium viewport device. Neat!!
-        </div>
       </main>
       <footer>
       </footer>
