@@ -11,7 +11,7 @@ const SurveyFormRadioGroupOption = ({ value }: RadioGroupOptionProps) => {
   return (
     <RadioGroup.Option value={value}>
       {({ checked }) => (
-        <div className={classNames('bg-green-100 w-30 h-15 rounded-lg flex items-center justify-center font-bold cursor-pointer', {
+        <div className={classNames('bg-green-100 hover:bg-green-50 w-30 h-15 rounded-lg flex items-center justify-center font-bold cursor-pointer', {
           'bg-green-400': checked
         })}>
           {value}
