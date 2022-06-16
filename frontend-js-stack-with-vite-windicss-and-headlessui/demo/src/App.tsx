@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO BOISE ENGINEERS!</h1>
-    </div>
+    <>
+      <h1 className="text-5xl font-bold text-center">HELLO BOISE ENGINEERS!</h1>
+    </>
   )
 }
 
