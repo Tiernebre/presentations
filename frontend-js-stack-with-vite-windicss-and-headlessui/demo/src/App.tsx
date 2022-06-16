@@ -1,4 +1,4 @@
-import { SurveyForm } from "./components/SurveyForm"
+import { SurveyForm } from "./components/SurveyForm";
 
 function App() {
   return (
@@ -7,17 +7,20 @@ function App() {
         <p>Boise Dev Meetup</p>
       </header>
       <main className="container mx-auto text-center py-5">
-        <h1 className="text-5xl font-bold mb-5">HELLO BOISE DEVELOPERS AND ENGINEERS!</h1>
-        <h2 className="text-2xl font-bold mb-3">I'd like you take to take a survey about the talk so far!</h2>
+        <h1 className="text-5xl font-bold mb-5">
+          HELLO BOISE DEVELOPERS AND ENGINEERS!
+        </h1>
+        <h2 className="text-2xl font-bold mb-3">
+          I'd like you take to take a survey about the talk so far!
+        </h2>
         <SurveyForm />
         <div className="visible md:hidden">
           Oh you're on a small viewport device. Awesome!!
         </div>
       </main>
-      <footer>
-      </footer>
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
