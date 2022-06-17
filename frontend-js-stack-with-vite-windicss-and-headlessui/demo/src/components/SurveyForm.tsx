@@ -36,7 +36,7 @@ export const SurveyForm = () => {
       <div>
         <Button variant="primary">Submit Form</Button>
       </div>
-      {submitted && <p>Thank you for your submission!</p>}
+      {submitted && <p className="mt-5">Thank you for your submission!</p>}
     </form>
   );
 };
