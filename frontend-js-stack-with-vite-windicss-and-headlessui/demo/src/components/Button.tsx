@@ -9,7 +9,7 @@ export const Button = (props: Props) => {
   const color =
     props.variant === "primary"
       ? "bg-pink-200 hover:bg-pink-100"
-      : "bg-gray-500 hover:bg-gray-400";
+      : "bg-gray-300 hover:bg-gray-200";
 
   const className = classNames("p-5 rounded", color, props.className);
 
