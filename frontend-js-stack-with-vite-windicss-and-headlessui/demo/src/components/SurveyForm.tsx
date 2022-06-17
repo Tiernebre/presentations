@@ -30,7 +30,7 @@ export const SurveyForm = () => {
         value={modalIsOpen}
         onCancel={() => setModalIsOpen(false)}
         onClose={() => setModalIsOpen(false)}
-        onProceed={() => setModalIsOpen(true)}
+        onProceed={onProceed}
       />
       <SurveyFormRadioGroup value={talkRating} onChange={setTalkRating} />
       <div>
